@@ -42,8 +42,8 @@ const ProductNamePrice = () => {
             </h2>
 
             <div className="mainRating">
-                <span>{wishListData[0].rating}</span>
-                <div className="stars">
+                {/* <span>{wishListData[0].rating}</span> */}
+                {/* <div className="stars">
                     {Array.from({ length: numRatingStars }, (_, index) => (
                         <img key={index} src={yellowStar} alt="" />
                     ))}
@@ -51,7 +51,7 @@ const ProductNamePrice = () => {
                         <img key={numRatingStars + index} src={blankStar} alt="" />
                     ))}
                 </div>
-                <span>({wishListData[0].totalRatings} ratings)</span>
+                <span>({wishListData[0].totalRatings} ratings)</span> */}
             </div>
 
             <div className="variants">
@@ -94,7 +94,7 @@ const ProductNamePrice = () => {
 
             <div className="mainButtons">
                 <button className="primaryBtn">Buy Now</button>
-                <button className="secondaryBtn">
+                {/* <button className="secondaryBtn">
                     <span>+</span> Add to cart
                 </button>
                 <button className="heartBtn">
@@ -102,7 +102,7 @@ const ProductNamePrice = () => {
                         <img src={HeartIcon} alt="" />
                     </span>
                     Add to wishlist
-                </button>
+                </button> */}
             </div>
 
             <div className="divHR mtb2"></div>

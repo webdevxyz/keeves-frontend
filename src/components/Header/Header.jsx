@@ -56,7 +56,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="flex w60 meadiaPosition">
+          {/* <div className="flex w60 meadiaPosition">
             <ListDropdown />
             <div className="box">
               <div id="openModal" onClick={openModal}>
@@ -70,15 +70,26 @@ const Header = () => {
               <div className="bar"></div>
               <SearchForm />
             </div>
-          </div>
+          </div> */}
 
           <div className="flexCenter gap3 mobGap0p5">
-            {isLoggedIn ? <UserDropdown /> : <User />}
+            {/* {isLoggedIn ? <UserDropdown /> : <User />} */}
             <button className="cartBtn" onClick={() => navigate("/cart")}>
-              <img src="/icon/shopping-bag-icon.svg" alt="" />
-              <span>Cart</span>
+             
+              <span>Product</span>
             </button>
-          </div>
+
+            <button className="cartBtn" onClick={() => navigate("/cart")}>
+              
+              <span>Blog</span>
+            </button>
+
+            <button className="cartBtn" onClick={() => navigate("/cart")}>
+              
+              <span>Contact Us</span>
+            </button>
+
+          </div>    
         </nav>
       </header>
       <LocationModal

@@ -33,7 +33,7 @@ const Details = () => {
         <div className="w100">
           {/* <DetailMainImage /> */}
           <ProductDetails />
-          <FromTheManufacturer />
+          {/* <FromTheManufacturer /> */}
         </div>
 
         <div className="w100">
@@ -51,9 +51,9 @@ const Details = () => {
             })}
           </div>
 
-          <div className="divHR mtb2"></div>
+          
 
-          <div>
+          {/* <div>
             <h3 className="fs14 fw500 mb1">Delivery to</h3>
             <input
               type="text"
@@ -71,19 +71,19 @@ const Details = () => {
               10 Days return & Exchange available
             </p>
             <p className="fs16 mb0p5 opa0p7">Cash on Delivery Available</p>
-          </div>
+          </div> */}
 
           <div className="divHR mtb2"></div>
 
-          <RatingsReviews />
+          {/* <RatingsReviews />
 
           <SortByReviews />
 
-          <CustomerReviews />
+          <CustomerReviews /> */}
         </div>
       </div>
 
-      <div className="container mb5">
+      {/* <div className="container mb5">
         <ProductCardSlider
           heading="You may like this"
           productData={smilerItemList}
@@ -92,7 +92,7 @@ const Details = () => {
           heading="Similar Items"
           productData={smilerItemList}
         />
-      </div>
+      </div> */}
     </>
   );
 };

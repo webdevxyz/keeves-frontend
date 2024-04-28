@@ -91,37 +91,37 @@ const Home = () => {
         {/* <!-- category filter end here --> */}
 
         <ProductCardSlider
-          heading="Trending Near You"
+          heading="Trending Products"
           productData={trendingNeraProducts}
         />
 
-        <CommonCardSlider heading="Best Mobile" cardData={bestMobile} />
+        <CommonCardSlider heading="All" cardData={bestMobile} />
 
         {/* shop by store starts here */}
-        <div className="flexCenterSB mt4 mb1 mobMt2">
+        {/* <div className="flexCenterSB mt4 mb1 mobMt2">
           <h3 className="fs20 mobFs16 fw500">Shop By Store</h3>
           <button className="seeAllBtn">
             See all <img src={dropdownIcon} alt="" />
           </button>
-        </div>
+        </div> */}
 
-        <ShopByStore shopData={shopByStoreList1} />
+        {/* <ShopByStore shopData={shopByStoreList1} />
 
-        <ShopByStore otherClass={"mt2 mobMt1"} shopData={shopByStoreList2} />
+        <ShopByStore otherClass={"mt2 mobMt1"} shopData={shopByStoreList2} /> */}
 
         {/* shop by store end here */}
 
-        <CommonCardSlider heading="Top Deals" cardData={topDealsList} />
+        {/* <CommonCardSlider heading="Top Deals" cardData={topDealsList} />
 
-        <ProductCardSlider heading="Healthy Oil" productData={healthyOilList} />
+        <ProductCardSlider heading="Healthy Oil" productData={healthyOilList} /> */}
 
-        <FeaturedBrands />
+        {/* <FeaturedBrands />
 
         <PopularMarkets />
 
-        <Banner />
+        <Banner /> */}
 
-        <ProductCardSlider
+        {/* <ProductCardSlider
           heading="Snacks Made Delicious"
           productData={snackData}
         />
@@ -134,7 +134,7 @@ const Home = () => {
         <CommonCardSlider
           heading="Offers on Furniture"
           cardData={furnitureDataList}
-        />
+        /> */}
       </div>
 
       {/* <!-- Become a plus Member starts here --> */}
@@ -159,14 +159,14 @@ const Home = () => {
         </div>
       </div>
       {/* <!-- Become a plus Member end here --> */}
-      <div className="container mb5 mobMb2">
+      {/* <div className="container mb5 mobMb2">
         <ProductCardSlider heading="Fresh Friday" productData={freshFriday} />
         <Banner />
         <ProductCardSlider
           heading="Recently Viewed"
           productData={recentlyViewedProducts}
         />
-      </div>
+      </div> */}
     </>
   );
 };
