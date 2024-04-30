@@ -2629,10 +2629,12 @@ a {
   background-color: transparent;
   border: none;
 }
+
 .inputBox .password .toggleButton svg {
   width: 20px;
   height: 20px;
 }
+
 .inputBox .input-icon {
   position: absolute;
   top: 50%;
@@ -2720,9 +2722,11 @@ a {
   font-size: 14px;
   font-weight: 500;
 }
-.ssoLogin img{
+
+.ssoLogin img {
   width: 30px;
 }
+
 .new-amazon-text {
   text-align: center;
   position: relative;
@@ -2836,10 +2840,12 @@ a {
   cursor: pointer;
   background-color: transparent;
 }
-.loginScreenLogo{
+
+.loginScreenLogo {
   width: 110px;
 }
-.changeEmailOrNumberBtn{
+
+.changeEmailOrNumberBtn {
   color: rgba(6, 87, 125, 1);
   text-decoration: underline;
   font-style: italic;
@@ -2849,7 +2855,8 @@ a {
   background-color: transparent;
   border: none;
 }
-.backBtn{
+
+.backBtn {
   background-color: transparent;
   border: none;
   color: var(--primary-clr);
@@ -2862,17 +2869,20 @@ a {
   margin-bottom: 15px;
   font-weight: 500;
 }
-.backBtn img{
+
+.backBtn img {
   width: 15px;
   transform: rotate(90deg);
 }
-.otp-boxs{
+
+.otp-boxs {
   display: flex;
   align-items: center;
   gap: 5px;
   margin: 1.3rem 0;
 }
-.otp-boxs input{
+
+.otp-boxs input {
   width: 50px;
   height: 50px;
   text-align: center;
@@ -2883,26 +2893,31 @@ a {
   font-weight: 500;
   transition: all .1s;
 }
-.otp-boxs input::placeholder{
+
+.otp-boxs input::placeholder {
   font-weight: 400;
   opacity: 0.6;
 }
-.otp-boxs input:focus{
-  border-color:var(--primary-clr) ;
+
+.otp-boxs input:focus {
+  border-color: var(--primary-clr);
 }
+
 .verifyOtpBtn {
   padding: 15px 40px;
   margin-top: 0;
 }
-.resendOtpBtn{
+
+.resendOtpBtn {
   color: var(--primary-clr);
-  text-decoration:underline ;
+  text-decoration: underline;
   background: transparent;
   border: none;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
 }
+
 /* login screen css end here */
 
 /* create account css starts here */
@@ -2915,6 +2930,7 @@ a {
   justify-content: center;
   background-color: var(--light-gray-2);
 }
+
 .createAcLine::before {
   left: 50px;
 }
@@ -2922,7 +2938,16 @@ a {
 .createAcLine::after {
   right: 50px;
 }
+
 /* create account css end here */
+
+.productThumb {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
 
 /* ======================================================= 
 ============ style css end here ============ 
@@ -2933,9 +2958,10 @@ a {
 ============ media css starts here ============ 
 ======================================================= */
 @media only screen and (min-width: 1600px) {
-  nav{
+  nav {
     width: 1600px;
   }
+
   .container {
     width: 1600px;
   }
@@ -2949,32 +2975,34 @@ a {
   }
 
 }
+
 @media only screen and (max-width:500px) {
   .loginContainer {
-      width: 100%;
+    width: 100%;
   }
 
   .createNewAccount {
-      width: 100%;
-      background: transparent;
-      box-shadow: unset;
+    width: 100%;
+    background: transparent;
+    box-shadow: unset;
   }
 
   .loginBg {
-      background: #fff;
-      background-image: unset;
+    background: #fff;
+    background-image: unset;
   }
 
   .loginScreenLogo {
-      position: absolute;
-      top: 20px;
-      width: 125px;
+    position: absolute;
+    top: 20px;
+    width: 125px;
   }
 
   .createAccountBg {
-      background-color: var(--white-clr);
+    background-color: var(--white-clr);
   }
 }
+
 @media only screen and (max-width: 480px) {
   .container {
     width: 95%;
@@ -3437,16 +3465,20 @@ a {
   .resultCard2 .ratingStars span {
     font-size: 12px;
   }
+
   .resultCard2 .ratingStars img {
     width: 18px;
 
   }
-  .resultCard2 .text .name{
+
+  .resultCard2 .text .name {
     font-size: 18px;
   }
-  .resultCard2 .text .price{
+
+  .resultCard2 .text .price {
     font-size: 18px;
   }
+
   /* search page media css end here */
 
 }
