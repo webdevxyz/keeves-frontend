@@ -30,7 +30,7 @@ const Login = () => {
     <>
       <div className="loginBg">
         <div className="loginContainer">
-          <img src="logo/logo.svg" alt="Logo" className="loginScreenLogo" />
+          <img src="logo/logo.png" alt="Logo" className="loginScreenLogo" />
           <h3 className="fs20 fw500 mTB0p6">Login</h3>
           <p className="fs14 op0p7">From listing your products to tracking orders, Mo Market makes it easy for you to grow
             your business.

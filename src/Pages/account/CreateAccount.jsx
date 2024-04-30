@@ -20,7 +20,7 @@ const CreateAccount = () => {
             <div className="createAccountBg">
                 {/* <nav className="nav">
           <div className="logo">
-            <img src="assets/img/logo.svg" alt="logo"></img>
+            <img src="assets/img/logo.png" alt="logo"></img>
           </div>
         </nav> */}
                 <div className="loginContainer">

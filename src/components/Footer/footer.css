@@ -4,7 +4,7 @@ footer {
 }
 
 .footerLogo {
-  width: 100px;
+  width: 58px;
 }
 
 .footerLogo img {
@@ -88,11 +88,13 @@ footer .hr {
     grid-template-columns: repeat(1, 1fr);
     padding: 2rem 2rem 0 2rem;
   }
-  .footerMenu span{
+
+  .footerMenu span {
     margin-bottom: .7rem;
     font-size: 15px;
   }
-  .footerMenu li a{
+
+  .footerMenu li a {
     font-size: 14px;
   }
 }

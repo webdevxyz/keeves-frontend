@@ -138,7 +138,7 @@ const Home = () => {
       </div>
 
       {/* <!-- Become a plus Member starts here --> */}
-      <div className="plusMember">
+      <div className="plusMember mb3">
         <div className="heading">
           <h1>
             Become a <img src={plusImage} alt="" /> Member

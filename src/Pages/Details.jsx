@@ -1,12 +1,6 @@
 // import DetailMainImage from "../components/DetailsMainImage";
 import ProductDetails from "../components/details/ProductDetails";
-import ProductCardSlider from "../components/ui/ProductCardSlider";
-import { smilerItemList } from "../lib/data/DetailsPageData";
 import ProductNamePrice from "../components/details/ProductNamePrice";
-import RatingsReviews from "../components/details/RatingsReviews";
-import SortByReviews from "../components/details/SortByReviews";
-import FromTheManufacturer from "../components/details/FromTheManufacturer";
-import CustomerReviews from "../components/details/CustomerReviews";
 
 const Details = () => {
   const aboutProduct = [

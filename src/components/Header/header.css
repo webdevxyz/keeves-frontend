@@ -19,7 +19,7 @@ nav {
 }
 
 .logo {
-  width: 100px;
+  width: 58px;
   cursor: pointer;
 }
 
@@ -81,7 +81,8 @@ nav {
   opacity: 0;
   transition: all .2s;
 }
-.loginContent:hover .loginBtn{
+
+.loginContent:hover .loginBtn {
   opacity: 1 !important;
 }
 
@@ -739,6 +740,7 @@ nav .box #openModal h3 {
   .downloadMomaApp p {
     line-height: 20px;
   }
+
   .loginBtn {
     display: none;
   }
